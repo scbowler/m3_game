@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>M3-Game</title>
+        <link rel="icon" type="image/png" href="Assets/images/shield.png">
+		<link rel="stylesheet" href="Assets/stylesheets/main.css">
+        <script src="Assets/js/main.js"></script>
+    </head>
+    
+    <body>
+        <header class="container">
+            <img src="Assets/images/M3_logo.png" alt="M3 logo">
+            <h1>Medieval Memory Match</h1>
+            <button class="btn" id="start" onclick="gameState('gameStart')">Start Game</button>
+            <button class="btn" id="reset" onclick="resetGame()">Reset Game</button>
+        </header>
+        
+        <section class="container">
+            <section class="left-info">
+                <h3>Stats:</h3>
+                <p>Time played:</p>
+                <p class="info" id="timer">00&#58;00&#58;00</p>
+                <p>Number of tries:</p>
+                <p class="info" id="numTries">000</p>
+                <p>Accuracy:</p>
+                <p class="info" id="accuracy">100&#37;</p>
+                <button class="btn2" id="easy" onclick="setDifficulty('easy')">Easy</button>
+                <button class="btn2 pressed" id="medium" onclick="setDifficulty('medium')">Medium</button>
+                <button class="btn2" id="hard" onclick="setDifficulty('hard')">Hard</button>
+            </section>
+        </section>
+        
+        <section class="container game-area" id="main-game-area">
+              
+        </section>
+    </body>
+</html>
