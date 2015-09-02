@@ -13,7 +13,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    color: #3d5266;
+    color: #885E7B;
 }
 
 /*
@@ -25,12 +25,12 @@ body {
 
 header {
     height: 160px;
-    background-color: #b8dbff;
+    background-color: pink;
     position: relative;
     text-align: center;
     vertical-align: top;
     border-radius: 8px;
-    box-shadow: 2px 2px 3px #4c6680;
+    box-shadow: 2px 2px 3px pink;
 }
 
 header img {
@@ -46,14 +46,14 @@ header h1 {
     display: inline-block;
     margin-top: 10px;
     padding-left: 90px;
-    text-shadow: 4px 4px 3px #4c6680;
+    text-shadow: lightpink;
 }
 
 .btn, .btn2 {
-    background-color: #6b8fb2;
+    background-color: #D492C1;
     color: #fff;
     border: none;
-    box-shadow: 3px 3px 2px #4c6680;
+    box-shadow: lightpink;
     font-family: "Comic Sans MS", cursive, sans-serif;
     border-radius: 6px;
 }
@@ -73,7 +73,7 @@ header h1 {
 }
 
 .pressed {
-    color: #00ff00;
+    color: #885E7B;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -112,11 +112,11 @@ header h1 {
     width: 150px;
     height: 500px;
     margin-top: 20px;
-    background-color: #b8dbff;
+    background-color: pink;
     float: left;
     margin-left: 30px;
     border-radius: 8px;
-    box-shadow: 2px 2px 3px #4c6680;
+    box-shadow: 2px 2px 3px lightpink;
 }
 
 .left-info h3 {
@@ -133,7 +133,7 @@ p.info {
     margin-right: 8px;
     margin-top: 2px;
     font-weight: 800;
-    box-shadow: 0 2px 3px #4c6680 inset;
+    box-shadow: 0 2px 3px #291C25 inset;
     border-radius: 12px;
 }
 
@@ -158,7 +158,7 @@ p.info {
 
 .game-area::after {
     content: "";
-    background-image: url(../images/M3_logo.png);
+    background-image: url(../images/disPrin.png);
     background-repeat: no-repeat;
     background-position: 150px 0;
     background-size: contain;
@@ -182,7 +182,7 @@ p.info {
     height: 150px;
     width: 100px;
     margin-right: 15px;
-    box-shadow: 3px 3px 3px #4c6680;
+    box-shadow: 3px 3px 3px pink;
     border-radius: 6px;
 }
 
@@ -214,7 +214,7 @@ p.info {
     top: -9px;
     height: 159px;
     width: 106px;
-    border: 2px solid yellow; 
+    border: 2px solid deeppink;
     border-radius: 6px;
 }
 

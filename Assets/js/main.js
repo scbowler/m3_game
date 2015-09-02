@@ -15,7 +15,8 @@ var difficulty = "medium";
 var row = 3;
 var perRow = 6;
 //var cardPairs = 9;
-var imgArray = ['archer_rs.png', 'castle_rs.png', 'dragon_green_rs.png', 'dragon_pink_rs.png', 'king_rs.png', 'knight_rs.png', 'princess_rs.png', 'shield_rs.png', 'wizard_rs.png', 'archer_rs.png', 'castle_rs.png', 'dragon_green_rs.png'];
+//var imgArray = ['archer_rs.png', 'castle_rs.png', 'dragon_green_rs.png', 'dragon_pink_rs.png', 'king_rs.png', 'knight_rs.png', 'princess_rs.png', 'shield_rs.png', 'wizard_rs.png', 'archer_rs.png', 'castle_rs.png', 'dragon_green_rs.png'];
+var imgArray = ['anna.jpg', 'ariel.jpg', 'jasmine.jpg', 'sofia.png', 'elsa.png', 'belle.jpg', 'cinderella.gif', 'merida.jpg', 'tinkerbell.jpg', 'rapunzel.png', 'minnieMouse.jpg', 'jessie.png'];
 
 //resets everything "Mostly"
 function resetGame() {
@@ -315,7 +316,7 @@ function setBoard(imgs){
             card_front.classList.add('front');
             
             var card_back = document.createElement("img");
-            card_back.src = "Assets/images/cardback_rs.png";
+            card_back.src = "Assets/images/back2.png";
             card_back.classList.add('back');
             card_back.setAttribute('onclick', "checkCard(this)");
             card_back.setAttribute('face', images[imgIndex]);
