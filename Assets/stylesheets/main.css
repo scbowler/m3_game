@@ -6,8 +6,14 @@
 	        box-sizing: border-box;
 }
 
+@font-face {
+    font-family: disney;
+    src: url("waltograph42.ttf");
+}
+
 body {
-    font-family: "Comic Sans MS", cursive, sans-serif; 
+    font-family: "disney", cursive, sans-serif;
+    letter-spacing: 2px;
 }
 
 .container {
@@ -42,18 +48,18 @@ header img {
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 65px;
     display: inline-block;
     margin-top: 10px;
     padding-left: 90px;
-    text-shadow: lightpink;
+    text-shadow: 2px 2px 4px white, 3px 2px 0px black;
 }
 
 .btn, .btn2 {
     background-color: #D492C1;
     color: #fff;
     border: none;
-    box-shadow: lightpink;
+    box-shadow: 1px 1px 4px black, 4px 4px 6px white;
     font-family: "Comic Sans MS", cursive, sans-serif;
     border-radius: 6px;
 }
@@ -184,6 +190,7 @@ p.info {
     margin-right: 15px;
     box-shadow: 3px 3px 3px pink;
     border-radius: 6px;
+    background-color: white;
 }
 
 .back, .front {

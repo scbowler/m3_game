@@ -16,7 +16,7 @@ var row = 3;
 var perRow = 6;
 //var cardPairs = 9;
 //var imgArray = ['archer_rs.png', 'castle_rs.png', 'dragon_green_rs.png', 'dragon_pink_rs.png', 'king_rs.png', 'knight_rs.png', 'princess_rs.png', 'shield_rs.png', 'wizard_rs.png', 'archer_rs.png', 'castle_rs.png', 'dragon_green_rs.png'];
-var imgArray = ['anna.jpg', 'ariel.jpg', 'jasmine.jpg', 'sofia.png', 'elsa.png', 'belle.jpg', 'cinderella.gif', 'merida.jpg', 'tinkerbell.jpg', 'rapunzel.png', 'minnieMouse.jpg', 'jessie.png'];
+var imgArray = ['anna.jpg', 'ariel.jpg', 'jasmine.jpg', 'olaf.jpeg', 'sofia.png', 'elsa.png', 'belle.jpg', 'cinderella.gif', 'tiana.jpg', 'merida.jpg', 'tinkerbell.jpg', 'rapunzel.png', 'minnieMouse.jpg', 'jessie.png'];
 
 //resets everything "Mostly"
 function resetGame() {
@@ -290,6 +290,8 @@ function sizeArray(size){
 //randomizes images on game board
 function setBoard(imgs){
     var imgIndex = 0;
+
+    console.log("single imgs", imgs);
     
     var game_area = document.querySelector("#main-game-area");
     //creates an array with two of each image
